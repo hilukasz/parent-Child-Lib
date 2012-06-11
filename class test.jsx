@@ -1,0 +1,1 @@
+﻿#target illustrator// @include lukaszLibrary.jsxfunction Parent(theParent){    this.value = theParent; // reference to single child container    this.symbolItems = []; //array of symbols    this.children = [];    this.level = "";}var parent = new Parent();parent.children = ["ok"];if(parent.children[0] != null) {    print("HAS CHILD!");} else {print("NO CHILD!");}
